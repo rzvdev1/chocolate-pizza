@@ -1,5 +1,125 @@
-h1 {
-  color: red;
+
+
+.flex {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+}
+
+
+.flex2 {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: bottom;
+  
+  
+  
+
+}
+
+h3 {
   font-size: 45px;
+}
+
+.flex3 {
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+  color:red; 
+  margin-bottom: 35px;
+
+  
+  
+}
+
+span {
+  font-size: small;
+}
+
+
+h2 {
+  background: url("https://raw.githubusercontent.com/codefellows/seattle-code-201n30/main/class-10/lab-a/lab-assets/hr-img.png");
+  background-repeat: repeat;
+  width: 100%;
+  height: 50px;
+
+}
+
+p {
+  color: gray;
+}
+
+.center {
+  margin:auto;
+  display:block;
+  width: 75%;
+}
+
+article {
+  margin-top:25px;
+  color:lightgrey;
+  text-align: center;
+  padding-left:30px;
+  padding-right:30px;
+
+}
+
+
+ul {
+  list-style-type: none;
+  
+}
+
+.ulflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://raw.githubusercontent.com/codefellows/seattle-code-201n30/main/class-10/lab-a/lab-assets/list-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.hr2 {
+  background: url("https://raw.githubusercontent.com/codefellows/seattle-code-201n30/main/class-10/lab-a/lab-assets/hr-img.png");
+  background-repeat: repeat;
+  width: 50%;
+  height: 20px;
+  margin:auto;
+  
+
+}
+
+.ending {
+  display:flex;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+
+button {
+  background-color: brown;
+  padding: 15px 32px;
+  color:white;
+  border:none;
+}
+
+hr {
+  width: 80%;
+}
+
+.imgfooter {
+ margin:auto;
+ display:block;
+ 
+ margin-top: -25px;
+  
+}
+
+footer {
   text-align: center;
 }
+
+input[type=checkbox]:checked{accent-color:white; opacity: 0.52}
+

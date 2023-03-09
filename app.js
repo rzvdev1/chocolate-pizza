@@ -1,5 +1,5 @@
-function test() {
-  alert("Testing JS File");
-}
+// function test() {
+//   alert("Testing JS File");
+// }
 
-test();
+// test();
